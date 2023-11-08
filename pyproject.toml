@@ -17,7 +17,7 @@ packages = [
 python = "<3.12,>=3.7.1"
 requests = "^2.31.0"
 snowflake-sqlalchemy = "^1.4.7"
-singer-sdk = "0.30.0"
+singer-sdk = {version = "0.30.0", extras = ["s3"]}
 cryptography = "^40.0.2"
 
 [tool.poetry.dev-dependencies]
